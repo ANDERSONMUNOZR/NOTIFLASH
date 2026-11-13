@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: rgb(3, 2 ,2);
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+nav ul li a:hover {
+    background-color: #65646489;
+    padding: 17px;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 3px #0b0b0b2c;
+}
+
+.logo {
+    color: red;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    border-left: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 25px 80px;
+}
+
+.items {
+    background-color: white;
+    border: 2px solid #65646489;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #0b0b0b2c;
+}
+
+h1 {
+    border-left: 10px solid red;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 17px;
+}
+
+/* clase diferente para cada seccion */
+.inicio {
+    color: red;
+}
+
+.deporte {
+    color: green;
+    border-left-color: green;
+}
+
+.farandula {
+    color: purple;
+    border-left-color: purple;
+}
+
+.politica {
+    color: blue;
+    border-left-color: blue;
+}
+
+.justicia {
+    color: brown;
+    border-left-color: brown;
+}
+
+.roboto, h2, a {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

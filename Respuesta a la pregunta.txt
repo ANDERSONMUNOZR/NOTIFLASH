@@ -1,0 +1,4 @@
+PREGUNTA DE REFLEXION
+
+href="#deporte" me lleva a una parte de la misma pagina.
+href="deporte.html" abre otra pagina HTML.
